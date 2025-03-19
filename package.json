@@ -1,0 +1,33 @@
+{
+  "name": "sequelize-uuid-binary",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build-and-publish": "npm run build && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@guimauvedigital/eslint-plugin-safety": "^1.0.9",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "typescript": "^5.7.1",
+    "typescript-eslint": "^8.25.0"
+  },
+  "dependencies": {
+    "sequelize": "^6.31.1",
+    "better-nullable": "^1.0.0",
+    "uuid": "^11.1.0"
+  }
+}
